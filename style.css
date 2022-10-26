@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins&family=Raleway:ital,wght@0,600;1,100&display=swap');
+
+
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+main {
+    margin: 10px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.4rem black);
+}
+
+.left {
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+.personal,
+.skills,
+.languages {
+    padding: 10px;
+    line-height: 2;
+}
+
+
+.left-image {
+    position: relative;
+}
+
+.left-image h2 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.rights {
+
+
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+.ami {
+    width: 100%;
+}
+
+.information {
+    color: lightslategray;
+}
+
+
+.education {
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: bisque;
+
+}
+
+.education ul {
+    line-height: 2;
+    padding: 20px;
+}
+
+.family {
+    line-height: 2;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.family ul {
+    padding: 20px;
+}
+
+.others {
+    background-color: bisque;
+    margin-top: 2rem;
+    line-height: 2;
+    padding: 10px;
+}
+
+.others ul>li {
+    display: inline;
+    padding: 10px;
+    line-height: 2;
+}
+
+.social {
+    display:
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+
+i {
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.technical {
+    background-color: bisque;
+    padding-left: 10px;
+    margin-top: 2rem;
+    display: flex;
+    line-height: 1.5;
+}
